@@ -1,0 +1,18 @@
+count=0
+string = "I want to become a developer "
+
+a = string.upper()
+for x in a :
+        if x == "A":
+            count= count+1
+        elif x == "E":
+            count= count+1
+        elif x == "I":
+            count= count+1
+        elif x == "O":
+            count= count+1
+        elif x == "U":
+            count= count+1
+        
+           
+print(count)
